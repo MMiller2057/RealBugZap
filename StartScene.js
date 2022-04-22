@@ -8,7 +8,7 @@ class StartScene extends Phaser.Scene {
   }
 	create() {
 		let bg=this.add.image(195,250, "startSpace");
-    this.add.text( 100, 230, 'Use the arrow keys to dodge the enemies', {fill: '#ffffff', fontSize: '12px'})
+    this.add.text( 100, 230, 'Use the arrow keys to dodge the enemies, nerd', {fill: '#ffffff', fontSize: '12px'})
     this.add.text( 100, 250, 'Gain points by dodging enemies', {fill: '#ffffff', fontSize: '12px'})
     this.add.text( 100, 270, 'Click anywhere on the screen to begin', {fill: '#ffffff', fontSize: '12px'})
 		this.input.on('pointerdown', () => {
